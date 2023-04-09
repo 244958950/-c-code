@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+  char c;
+  printf("输入一个字符: ");
+  scanf("%c", &c);  
+  printf("c 的 ASCII码为:%d",c);
+  return 0;
+}
