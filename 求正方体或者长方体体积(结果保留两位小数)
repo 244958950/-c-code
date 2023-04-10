@@ -1,0 +1,23 @@
+正方体
+#include<stdio.h>
+int main()
+{
+    float side,v;
+    printf("请输入正方体的边长:");
+    scanf("%f",&side);
+    v=side*side*side;
+    printf("v=%.2f\n",v);
+    return 0;
+}
+
+长方体
+#include <stdio.h>
+int main()
+{
+    float x,y,h,v;
+    printf("请依次输入长方体的长,宽,高:");
+    scanf("%f%f%f",&x,&y,&h);
+    v=x*y*h;
+    printf("v=%.2f\n",v);
+    return 0;
+}
