@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int number;
+    printf("请输入一个数字");
+    scanf("%d",&number);
+    //判断这个数除以2的余数是否为零
+    if(0==number%2&&number>0)
+    {
+        printf("这个数字为偶数");
+    }
+    else
+    {
+        printf("这个数字为奇数");
+    }
+    return 0;
+}
