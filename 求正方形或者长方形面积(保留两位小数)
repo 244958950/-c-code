@@ -3,6 +3,7 @@
 int main()
 {
     float side ,area;
+    //定义正方形的边长跟面积
     scanf("%f",&side);
     area=side*side;
     printf("area=%.2f\n",area);
@@ -15,6 +16,7 @@ int main()
 int main()
 {
   float x,y,area;
+  //定义长方形的长，宽和面积
   scanf("%f%f",&x,&y);
   area=x*y;
   printf("area=%.2f\n",area);
