@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    char ch;
+    printf("从键盘上输入任意字符:");
+    scanf("%c", &ch);
+    if (ch >= 'A' && ch <= 'Z' || ch >= 'a' && ch <= 'z')
+        printf("这个字符为字母字符");
+    else if (ch >= '0' && ch <= '9')
+        printf("这个字符为数字字符");
+    else
+        printf("这个字符为其他字符");
+    return 0;
+}
